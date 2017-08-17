@@ -34,7 +34,7 @@ namespace POEHudDumper
             string Date = DateTime.Now.ToString("dd-MM-yyyy");
             string Time = DateTime.Now.ToString("hh.mm.ss tt");
             string Area = GameController.Area.CurrentArea.DisplayName;
-            string FileLocation = "Preload Dumps / " + Date + " / " + Area;
+            string FileLocation = "Preload Dumps/" + Date + "/" + Area;
             string TxtFile = FileLocation + "/" + Time + " " + Area + ".txt";
             Directory.CreateDirectory(FileLocation);
             File.Create(TxtFile);
