@@ -102,47 +102,46 @@ namespace POEHudDumper
         public ToggleNode DumpPreloadData { get; set; }
 
 
-        [Menu("File Extensions", 12)]
         public EmptyNode FileExtensions { get; set; }
-        [Menu("A => J", 412, 12)]
+        [Menu("File Extensions [A - J]", 12)]
         public EmptyNode FileExtensionsPart1 { get; set; }
-        [Menu("M => X", 413, 12)]
+        [Menu("File Extensions [M - X]", 13)]
         public EmptyNode FileExtensionsPart2 { get; set; }
 
-        [Menu("A", 21, 412)]
+        [Menu("A", 21, 12)]
         public EmptyNode a { get; set; }
-        [Menu("B", 22, 412)]
+        [Menu("B", 22, 12)]
         public EmptyNode b { get; set; }
-        [Menu("C", 23, 412)]
+        [Menu("C", 23, 12)]
         public EmptyNode c { get; set; }
-        [Menu("D", 24, 412)]
+        [Menu("D", 24, 12)]
         public EmptyNode d { get; set; }
-        [Menu("E", 25, 412)]
+        [Menu("E", 25, 12)]
         public EmptyNode e { get; set; }
-        [Menu("F", 26, 412)]
+        [Menu("F", 26, 12)]
         public EmptyNode f { get; set; }
-        [Menu("G", 27, 412)]
+        [Menu("G", 27, 12)]
         public EmptyNode g { get; set; }
-        [Menu("I", 28, 412)]
+        [Menu("I", 28, 12)]
         public EmptyNode i { get; set; }
-        [Menu("J", 29, 412)]
+        [Menu("J", 29, 12)]
         public EmptyNode j { get; set; }
 
-        [Menu("M", 210, 413)]
+        [Menu("M", 210, 13)]
         public EmptyNode m { get; set; }
-        [Menu("O", 211, 413)]
+        [Menu("O", 211, 13)]
         public EmptyNode o { get; set; }
-        [Menu("P", 212, 413)]
+        [Menu("P", 212, 13)]
         public EmptyNode p { get; set; }
-        [Menu("R", 213, 413)]
+        [Menu("R", 213, 13)]
         public EmptyNode r { get; set; }
-        [Menu("S", 214, 413)]
+        [Menu("S", 214, 13)]
         public EmptyNode s { get; set; }
-        [Menu("T", 215, 413)]
+        [Menu("T", 215, 13)]
         public EmptyNode t { get; set; }
-        [Menu("U", 216, 413)]
+        [Menu("U", 216, 13)]
         public EmptyNode u { get; set; }
-        [Menu("X", 217, 413)]
+        [Menu("X", 217, 13)]
         public EmptyNode x { get; set; }
 
         [Menu(".act", 3211, 21)]
