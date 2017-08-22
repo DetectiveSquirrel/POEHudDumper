@@ -15,6 +15,7 @@ using PoeHUD.Poe.RemoteMemoryObjects;
 using PoeHUD.Framework.Helpers;
 using PoeHUD.Poe;
 using SharpDX.Direct3D9;
+using System.IO;
 
 namespace LabQoL
 {
@@ -24,7 +25,17 @@ namespace LabQoL
 
         public override void Initialise()
         {
+            MoveAssets();
             entities = new HashSet<EntityWrapper>();
+        }
+
+        // Move image file every time just to make sure its there
+        private void MoveAssets()
+        {
+            var File1 = $"{PluginDirectory}\\images\\shrines.png";
+            var File1MoveTo = $"{PluginDirectory}\\..\\..\\textures\\shrines.png";
+
+            File.Copy(File1, File1MoveTo);
         }
 
         public override void Render()
