@@ -16,3 +16,6 @@ When `Dump Preload Data` is enabled it will dump all preload strings sorted alph
 Example of folder structure: `"PoE HUD\Preload Dumps\17-08-2017\The Sarn Encampment (33)\11.34.48 PM The Sarn Encampment (33).txt"`
 
 `File extensions` can be excluded from logging by enabling/disabling them under File Extensions menus, sorted aplhabetically
+
+### Setup
+Place files from `Place into PoEHUD textures Folder` into PoEHUD's `textures` folder or you will have a bad time mkay?
