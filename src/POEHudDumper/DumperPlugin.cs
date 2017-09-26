@@ -11,6 +11,7 @@ namespace POEHudDumper
 {
     public class DumperPlugin : BaseSettingsPlugin<DumperSettings>
     {
+        public bool fileInUse = false;
         public override void Initialise()
         {
             GameController.Area.OnAreaChange += OnAreaChange;
@@ -19,11 +20,13 @@ namespace POEHudDumper
         private void OnAreaChange(AreaController area)
         {
             if (Settings.DumpPreloadData)
-                Parse();
+                if (!fileInUse)
+                    Parse();
         }
 
         private void Parse()
         {
+            fileInUse = true;
             Memory memory = GameController.Memory;
             long pFileRoot = memory.AddressOfProcess + memory.offsets.FileRoot;
             int count = memory.ReadInt(pFileRoot + 0x10); // check how many files are loaded
@@ -37,7 +40,7 @@ namespace POEHudDumper
             string FileLocation = "Preload Dumps/" + Date + "/" + Area;
             string TxtFile = FileLocation + "/" + Time + " " + Area + ".txt";
             Directory.CreateDirectory(FileLocation);
-            File.Create(TxtFile);
+            //File.Create(TxtFile);
             StringBuilder PreloadDump = new StringBuilder();
 
             for (int i = 0; i < count; i++)
@@ -70,7 +73,16 @@ namespace POEHudDumper
             items.Sort();
             PreloadDump = new StringBuilder(string.Join("\r\n", items.ToArray()));
 
-            File.WriteAllText(TxtFile, PreloadDump.ToString());
+            try
+            {
+                File.WriteAllText(TxtFile, PreloadDump.ToString());
+            }
+            catch
+            {
+                LogError("Preload Dumper: Error writing to file, in use perhaps.", 10);
+            }
+
+            fileInUse = false;
         }
 
         private bool CheckExtension(string text)
