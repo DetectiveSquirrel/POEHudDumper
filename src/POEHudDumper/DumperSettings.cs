@@ -12,90 +12,90 @@ namespace POEHudDumper
             FileExtensions = new EmptyNode();
             FileExtensionsPart1 = new EmptyNode();
             FileExtensionsPart2 = new EmptyNode();
-            a = new EmptyNode();
-            b = new EmptyNode();
-            c = new EmptyNode();
-            d = new EmptyNode();
-            e = new EmptyNode();
-            f = new EmptyNode();
-            g = new EmptyNode();
-            i = new EmptyNode();
-            j = new EmptyNode();
-            m = new EmptyNode();
-            o = new EmptyNode();
-            p = new EmptyNode();
-            r = new EmptyNode();
-            s = new EmptyNode();
-            t = new EmptyNode();
-            u = new EmptyNode();
-            x = new EmptyNode();
+            A = new EmptyNode();
+            B = new EmptyNode();
+            C = new EmptyNode();
+            D = new EmptyNode();
+            E = new EmptyNode();
+            F = new EmptyNode();
+            G = new EmptyNode();
+            I = new EmptyNode();
+            J = new EmptyNode();
+            M = new EmptyNode();
+            O = new EmptyNode();
+            P = new EmptyNode();
+            R = new EmptyNode();
+            S = new EmptyNode();
+            T = new EmptyNode();
+            U = new EmptyNode();
+            X = new EmptyNode();
 
-            act = true;
-            ais = true;
-            amd = true;
-            ao = true;
-            aoc = true;
-            arm = true;
-            ast = true;
-            atlas = true;
-            bank = true;
-            bat = true;
-            cfg = true;
-            cht = true;
-            clt = true;
-            dat = true;
-            dct = true;
-            dds = true;
-            ddt = true;
-            dgr = true;
-            dlp = true;
-            ecf = true;
-            env = true;
-            epk = true;
-            et = true;
-            ffx = true;
-            fmt = true;
-            fx = true;
-            gft = true;
-            gt = true;
-            idl = true;
-            idt = true;
-            jpeg = true;
-            jpg = true;
-            mat = true;
-            mb = true;
-            mel = true;
-            mtd = true;
-            mtp = true;
-            ogg = true;
-            ogg2d = true;
-            oggsg = true;
-            ot = true;
-            otc = true;
-            pet = true;
-            pjd = true;
-            png = true;
-            properties = true;
-            psg = true;
-            red = true;
-            rs = true;
-            rtf = true;
-            slt = true;
-            sm = true;
-            smd = true;
-            tdt = true;
-            tgm = true;
-            tgr = true;
-            tgt = true;
-            tmd = true;
-            trl = true;
-            tsi = true;
-            tst = true;
-            ttf = true;
-            txt = true;
-            ui = true;
-            xls = true;
-            xml = true;
+            Act = true;
+            Ais = true;
+            Amd = true;
+            Ao = true;
+            Aoc = true;
+            Arm = true;
+            Ast = true;
+            Atlas = true;
+            Bank = true;
+            Bat = true;
+            Cfg = true;
+            Cht = true;
+            Clt = true;
+            Dat = true;
+            Dct = true;
+            Dds = true;
+            Ddt = true;
+            Dgr = true;
+            Dlp = true;
+            Ecf = true;
+            Env = true;
+            Epk = true;
+            Et = true;
+            Ffx = true;
+            Fmt = true;
+            Fx = true;
+            Gft = true;
+            Gt = true;
+            Idl = true;
+            Idt = true;
+            Jpeg = true;
+            Jpg = true;
+            Mat = true;
+            Mb = true;
+            Mel = true;
+            Mtd = true;
+            Mtp = true;
+            Ogg = true;
+            Ogg2D = true;
+            Oggsg = true;
+            Ot = true;
+            Otc = true;
+            Pet = true;
+            Pjd = true;
+            Png = true;
+            Properties = true;
+            Psg = true;
+            Red = true;
+            Rs = true;
+            Rtf = true;
+            Slt = true;
+            Sm = true;
+            Smd = true;
+            Tdt = true;
+            Tgm = true;
+            Tgr = true;
+            Tgt = true;
+            Tmd = true;
+            Trl = true;
+            Tsi = true;
+            Tst = true;
+            Ttf = true;
+            Txt = true;
+            Ui = true;
+            Xls = true;
+            Xml = true;
         }
 
         [Menu("Dump Preload Data", 11)]
@@ -109,189 +109,189 @@ namespace POEHudDumper
         public EmptyNode FileExtensionsPart2 { get; set; }
 
         [Menu("A", 21, 12)]
-        public EmptyNode a { get; set; }
+        public EmptyNode A { get; set; }
         [Menu("B", 22, 12)]
-        public EmptyNode b { get; set; }
+        public EmptyNode B { get; set; }
         [Menu("C", 23, 12)]
-        public EmptyNode c { get; set; }
+        public EmptyNode C { get; set; }
         [Menu("D", 24, 12)]
-        public EmptyNode d { get; set; }
+        public EmptyNode D { get; set; }
         [Menu("E", 25, 12)]
-        public EmptyNode e { get; set; }
+        public EmptyNode E { get; set; }
         [Menu("F", 26, 12)]
-        public EmptyNode f { get; set; }
+        public EmptyNode F { get; set; }
         [Menu("G", 27, 12)]
-        public EmptyNode g { get; set; }
+        public EmptyNode G { get; set; }
         [Menu("I", 28, 12)]
-        public EmptyNode i { get; set; }
+        public EmptyNode I { get; set; }
         [Menu("J", 29, 12)]
-        public EmptyNode j { get; set; }
+        public EmptyNode J { get; set; }
 
         [Menu("M", 210, 13)]
-        public EmptyNode m { get; set; }
+        public EmptyNode M { get; set; }
         [Menu("O", 211, 13)]
-        public EmptyNode o { get; set; }
+        public EmptyNode O { get; set; }
         [Menu("P", 212, 13)]
-        public EmptyNode p { get; set; }
+        public EmptyNode P { get; set; }
         [Menu("R", 213, 13)]
-        public EmptyNode r { get; set; }
+        public EmptyNode R { get; set; }
         [Menu("S", 214, 13)]
-        public EmptyNode s { get; set; }
+        public EmptyNode S { get; set; }
         [Menu("T", 215, 13)]
-        public EmptyNode t { get; set; }
+        public EmptyNode T { get; set; }
         [Menu("U", 216, 13)]
-        public EmptyNode u { get; set; }
+        public EmptyNode U { get; set; }
         [Menu("X", 217, 13)]
-        public EmptyNode x { get; set; }
+        public EmptyNode X { get; set; }
 
         [Menu(".act", 3211, 21)]
-        public ToggleNode act { get; set; }
+        public ToggleNode Act { get; set; }
         [Menu(".ais", 3212, 21)]
-        public ToggleNode ais { get; set; }
+        public ToggleNode Ais { get; set; }
         [Menu(".amd", 3213, 21)]
-        public ToggleNode amd { get; set; }
+        public ToggleNode Amd { get; set; }
         [Menu(".ao", 3214, 21)]
-        public ToggleNode ao { get; set; }
+        public ToggleNode Ao { get; set; }
         [Menu(".aoc", 3215, 21)]
-        public ToggleNode aoc { get; set; }
+        public ToggleNode Aoc { get; set; }
         [Menu(".arm", 3216, 21)]
-        public ToggleNode arm { get; set; }
+        public ToggleNode Arm { get; set; }
         [Menu(".ast", 3217, 21)]
-        public ToggleNode ast { get; set; }
+        public ToggleNode Ast { get; set; }
         [Menu(".atlas", 3218, 21)]
-        public ToggleNode atlas { get; set; }
+        public ToggleNode Atlas { get; set; }
 
         [Menu(".bank", 3221, 22)]
-        public ToggleNode bank { get; set; }
+        public ToggleNode Bank { get; set; }
         [Menu(".bat", 3222, 22)]
-        public ToggleNode bat { get; set; }
+        public ToggleNode Bat { get; set; }
 
         [Menu(".cfg", 3231, 23)]
-        public ToggleNode cfg { get; set; }
+        public ToggleNode Cfg { get; set; }
         [Menu(".cht", 3232, 23)]
-        public ToggleNode cht { get; set; }
+        public ToggleNode Cht { get; set; }
         [Menu(".clt", 3233, 23)]
-        public ToggleNode clt { get; set; }
+        public ToggleNode Clt { get; set; }
 
         [Menu(".dat", 3241, 24)]
-        public ToggleNode dat { get; set; }
+        public ToggleNode Dat { get; set; }
         [Menu(".dct", 3242, 24)]
-        public ToggleNode dct { get; set; }
+        public ToggleNode Dct { get; set; }
         [Menu(".dds", 3243, 24)]
-        public ToggleNode dds { get; set; }
+        public ToggleNode Dds { get; set; }
         [Menu(".ddt", 3244, 24)]
-        public ToggleNode ddt { get; set; }
+        public ToggleNode Ddt { get; set; }
         [Menu(".dgr", 3245, 24)]
-        public ToggleNode dgr { get; set; }
+        public ToggleNode Dgr { get; set; }
         [Menu(".dlp", 3246, 24)]
-        public ToggleNode dlp { get; set; }
+        public ToggleNode Dlp { get; set; }
 
         [Menu(".ecf", 3251, 25)]
-        public ToggleNode ecf { get; set; }
+        public ToggleNode Ecf { get; set; }
         [Menu(".env", 3252, 25)]
-        public ToggleNode env { get; set; }
+        public ToggleNode Env { get; set; }
         [Menu(".epk", 3253, 25)]
-        public ToggleNode epk { get; set; }
+        public ToggleNode Epk { get; set; }
         [Menu(".et", 3254, 25)]
-        public ToggleNode et { get; set; }
+        public ToggleNode Et { get; set; }
 
         [Menu(".ffx", 3261, 26)]
-        public ToggleNode ffx { get; set; }
+        public ToggleNode Ffx { get; set; }
         [Menu(".fmt", 3262, 26)]
-        public ToggleNode fmt { get; set; }
+        public ToggleNode Fmt { get; set; }
         [Menu(".fx", 3263, 26)]
-        public ToggleNode fx { get; set; }
+        public ToggleNode Fx { get; set; }
 
         [Menu(".gft", 3271, 27)]
-        public ToggleNode gft { get; set; }
+        public ToggleNode Gft { get; set; }
         [Menu(".gt", 3272, 27)]
-        public ToggleNode gt { get; set; }
+        public ToggleNode Gt { get; set; }
 
         [Menu(".idl", 3281, 28)]
-        public ToggleNode idl { get; set; }
+        public ToggleNode Idl { get; set; }
         [Menu(".idt", 3282, 28)]
-        public ToggleNode idt { get; set; }
+        public ToggleNode Idt { get; set; }
 
         [Menu(".jpeg", 3291, 29)]
-        public ToggleNode jpeg { get; set; }
+        public ToggleNode Jpeg { get; set; }
         [Menu(".jpg", 3292, 29)]
-        public ToggleNode jpg { get; set; }
+        public ToggleNode Jpg { get; set; }
 
         [Menu(".mat", 32101, 210)]
-        public ToggleNode mat { get; set; }
+        public ToggleNode Mat { get; set; }
         [Menu(".mb", 32102, 210)]
-        public ToggleNode mb { get; set; }
+        public ToggleNode Mb { get; set; }
         [Menu(".mel", 32103, 210)]
-        public ToggleNode mel { get; set; }
+        public ToggleNode Mel { get; set; }
         [Menu(".mtd", 32104, 210)]
-        public ToggleNode mtd { get; set; }
+        public ToggleNode Mtd { get; set; }
         [Menu(".mtp", 32105, 210)]
-        public ToggleNode mtp { get; set; }
+        public ToggleNode Mtp { get; set; }
 
         [Menu(".ogg", 32111, 211)]
-        public ToggleNode ogg { get; set; }
+        public ToggleNode Ogg { get; set; }
         [Menu(".ogg2d", 32112, 211)]
-        public ToggleNode ogg2d { get; set; }
+        public ToggleNode Ogg2D { get; set; }
         [Menu(".oggsg", 32113, 211)]
-        public ToggleNode oggsg { get; set; }
+        public ToggleNode Oggsg { get; set; }
         [Menu(".ot", 32114, 211)]
-        public ToggleNode ot { get; set; }
+        public ToggleNode Ot { get; set; }
         [Menu(".otc", 32115, 211)]
-        public ToggleNode otc { get; set; }
+        public ToggleNode Otc { get; set; }
 
         [Menu(".pet", 32121, 212)]
-        public ToggleNode pet { get; set; }
+        public ToggleNode Pet { get; set; }
         [Menu(".pjd", 32122, 212)]
-        public ToggleNode pjd { get; set; }
+        public ToggleNode Pjd { get; set; }
         [Menu(".png", 32123, 212)]
-        public ToggleNode png { get; set; }
+        public ToggleNode Png { get; set; }
         [Menu(".properties", 32124, 212)]
-        public ToggleNode properties { get; set; }
+        public ToggleNode Properties { get; set; }
         [Menu(".psg", 32125, 212)]
-        public ToggleNode psg { get; set; }
+        public ToggleNode Psg { get; set; }
 
         [Menu(".red", 32131, 213)]
-        public ToggleNode red { get; set; }
+        public ToggleNode Red { get; set; }
         [Menu(".rs", 32132, 213)]
-        public ToggleNode rs { get; set; }
+        public ToggleNode Rs { get; set; }
         [Menu(".rtf", 32133, 213)]
-        public ToggleNode rtf { get; set; }
+        public ToggleNode Rtf { get; set; }
 
         [Menu(".slt", 32141, 214)]
-        public ToggleNode slt { get; set; }
+        public ToggleNode Slt { get; set; }
         [Menu(".sm", 32142, 214)]
-        public ToggleNode sm { get; set; }
+        public ToggleNode Sm { get; set; }
         [Menu(".smd", 32143, 214)]
-        public ToggleNode smd { get; set; }
+        public ToggleNode Smd { get; set; }
 
         [Menu(".tdt", 32151, 215)]
-        public ToggleNode tdt { get; set; }
+        public ToggleNode Tdt { get; set; }
         [Menu(".tgm", 32152, 215)]
-        public ToggleNode tgm { get; set; }
+        public ToggleNode Tgm { get; set; }
         [Menu(".tgr", 32153, 215)]
-        public ToggleNode tgr { get; set; }
+        public ToggleNode Tgr { get; set; }
         [Menu(".tgt", 32154, 215)]
-        public ToggleNode tgt { get; set; }
+        public ToggleNode Tgt { get; set; }
         [Menu(".tmd", 32155, 215)]
-        public ToggleNode tmd { get; set; }
+        public ToggleNode Tmd { get; set; }
         [Menu(".trl", 32156, 215)]
-        public ToggleNode trl { get; set; }
+        public ToggleNode Trl { get; set; }
         [Menu(".tsi", 32157, 215)]
-        public ToggleNode tsi { get; set; }
+        public ToggleNode Tsi { get; set; }
         [Menu(".tst", 32158, 215)]
-        public ToggleNode tst { get; set; }
+        public ToggleNode Tst { get; set; }
         [Menu(".ttf", 32159, 215)]
-        public ToggleNode ttf { get; set; }
+        public ToggleNode Ttf { get; set; }
         [Menu(".txt", 321510, 215)]
-        public ToggleNode txt { get; set; }
+        public ToggleNode Txt { get; set; }
 
         [Menu(".ui", 32161, 216)]
-        public ToggleNode ui { get; set; }
+        public ToggleNode Ui { get; set; }
 
         [Menu(".xls", 32171, 217)]
-        public ToggleNode xls { get; set; }
+        public ToggleNode Xls { get; set; }
         [Menu(".xml", 32172, 217)]
-        public ToggleNode xml { get; set; }
+        public ToggleNode Xml { get; set; }
 
     }
 }
